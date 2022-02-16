@@ -1,0 +1,123 @@
+{
+  "name": "IBM Carbon Colors",
+  "variables": {
+    "red": "#da1e28",
+    "magenta": "#ff7eb6",
+    "purple": "#be95ff",
+    "blue": "#78a9ff",
+    "dark-blue": "#0043ce",
+    "cyan": "#0072c3",
+    "dark-cyan": "#003a6d",
+    "teal": "#08bdba",
+    "green": "#6fdc8c",
+    "cool-gray": "#697077",
+    "gray": "#262626",
+    "warm-gray": "#171414",
+
+    "orange": "#ffb784",
+    "yellow": "#fddc69",
+
+    "black": "#000000",
+  },
+  "globals":
+  {
+      "background": "black",
+      "foreground": "#EEEEEE",
+      "caret": "var(yellow)",
+      "line_highlight": "var(warm-gray)",
+      "selection": "var(gray)",
+      // "selection_foreground": "var(magenta)",
+      "selection_border": "var(magenta)",
+      "gutter": "#000"
+  },
+  "rules":
+  [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "foreground": "#888888"
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "foreground": "var(green)",
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "foreground": "var(orange)"
+    },
+    {
+      "scope": "entity.name",
+      "foreground": "var(yellow)",
+      "font_style": "bold"
+    },
+    {
+      "scope": "variable.parameter",
+      "foreground": "var(orange)"
+    },
+    {
+      "scope": "variable.function",
+      "foreground": "var(purple)",
+      // "font_style": "underline"
+    },
+    {
+      "scope": "variable.declaration",
+      "foreground": "var(yellow)",
+      "font_style": "underline"
+    },
+    {
+      "scope": "constant.character.escape",
+      "foreground": "var(magenta)"
+    },
+    {
+      "scope": "storage.type",
+      "foreground": "var(teal)"
+    },
+    {
+      "scope": "storage.modifier",
+      "foreground": "var(magenta)",
+      "font_style": ""
+    },
+    {
+      "scope": "support",
+      "foreground": "var(blue)"
+    },
+    {
+      "scope": "keyword.control",
+      "foreground": "var(blue)"
+    },
+    {
+      "scope": "keyword.operator",
+      "foreground": "var(magenta)",
+      "font_style": "bold"
+    },
+    {
+      "scope": "keyword.declaration",
+      "foreground": "var(teal)",
+      "font_style": "italic"
+    },
+    {
+      "scope": "invalid",
+      "foreground": "var(red)"
+    },
+    {
+      "scope": "invalid.deprecated",
+      "foreground": "var(red)"
+    },
+    {
+      "scope": "entity.name.tag",
+      "foreground": "var(magenta)",
+      "font_style": "italic"
+    },
+    {
+      "scope": "entity.name.section",
+      "foreground": "var(teal)"
+    },
+    {
+      "scope": "entity.other.attribute-name",
+      "foreground": "var(yellow)",
+      "font_style": "stippled_underline"
+    }
+  ]
+}
